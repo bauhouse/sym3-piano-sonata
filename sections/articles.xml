@@ -75,7 +75,9 @@
       <name>Article Images</name>
       <publish-label></publish-label>
       <section>articles</section>
-      <related-fields/>
+      <related-fields>
+        <item section="images" field="title"/>
+      </related-fields>
     </field>
     <field guid="4c2f3d3e165b1">
       <required>no</required>
@@ -86,7 +88,9 @@
       <name>Categories</name>
       <publish-label></publish-label>
       <section>articles</section>
-      <related-fields/>
+      <related-fields>
+        <item section="categories" field="title"/>
+      </related-fields>
     </field>
     <field guid="4c2f3d3e16638">
       <required>no</required>
