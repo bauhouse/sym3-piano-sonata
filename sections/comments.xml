@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section guid="4c2f41a19d29b">
+  <name handle="comments">Comments</name>
+  <hidden-from-publish-menu>no</hidden-from-publish-menu>
+  <navigation-group>Content</navigation-group>
+  <publish-order-handle></publish-order-handle>
+  <publish-order-direction></publish-order-direction>
+  <fields>
+    <field guid="4c2f4250bd44e">
+      <required>yes</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>author</element-name>
+      <name>Author</name>
+      <publish-label></publish-label>
+      <text-size>single</text-size>
+      <text-formatter></text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>comments</section>
+    </field>
+    <field guid="4c2f41a19d3ff">
+      <required>yes</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>email</element-name>
+      <name>Email</name>
+      <publish-label></publish-label>
+      <text-size>single</text-size>
+      <text-formatter></text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>comments</section>
+    </field>
+    <field guid="4c2f41a19d4bb">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>website</element-name>
+      <name>Website</name>
+      <publish-label></publish-label>
+      <text-size>single</text-size>
+      <text-formatter></text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>comments</section>
+    </field>
+    <field guid="4c2f41a19d578">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <type>date</type>
+      <element-name>date</element-name>
+      <name>Date</name>
+      <publish-label></publish-label>
+      <pre-populate>yes</pre-populate>
+      <section>comments</section>
+    </field>
+    <field guid="4c2f41a19d5ff">
+      <required>yes</required>
+      <show-column>yes</show-column>
+      <limit>20</limit>
+      <type>link</type>
+      <element-name>article</element-name>
+      <name>Article</name>
+      <publish-label></publish-label>
+      <section>comments</section>
+      <related-fields>
+        <item section="articles" field="title"/>
+      </related-fields>
+    </field>
+    <field guid="4c2f41a19d696">
+      <required>yes</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>comment</element-name>
+      <name>Comment</name>
+      <publish-label></publish-label>
+      <text-size>medium</text-size>
+      <text-formatter>markdown_extra_with_smartypants</text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>comments</section>
+    </field>
+  </fields>
+  <layout>
+    <column>
+      <size>large</size>
+      <fieldset>
+        <name></name>
+        <field>comment</field>
+      </fieldset>
+    </column>
+    <column>
+      <size>small</size>
+      <fieldset>
+        <name></name>
+        <field>article</field>
+        <field>author</field>
+        <field>email</field>
+        <field>website</field>
+        <field>date</field>
+      </fieldset>
+    </column>
+  </layout>
+</section>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section guid="4c2f3e2cf22a9">
+  <name handle="categories">Categories</name>
+  <hidden-from-publish-menu>no</hidden-from-publish-menu>
+  <navigation-group>Content</navigation-group>
+  <publish-order-handle></publish-order-handle>
+  <publish-order-direction></publish-order-direction>
+  <fields>
+    <field guid="4c2f3e2cf2300">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>title</element-name>
+      <name>Title</name>
+      <publish-label></publish-label>
+      <text-size>single</text-size>
+      <text-formatter>markdown_extra_with_smartypants</text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>categories</section>
+    </field>
+    <field guid="4c2f3e2cf23cb">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>description</element-name>
+      <name>Description</name>
+      <publish-label></publish-label>
+      <text-size>medium</text-size>
+      <text-formatter>markdown_extra_with_smartypants</text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>categories</section>
+    </field>
+  </fields>
+  <layout>
+    <column>
+      <size>large</size>
+      <fieldset>
+        <name></name>
+        <field>title</field>
+        <field>description</field>
+      </fieldset>
+    </column>
+  </layout>
+</section>

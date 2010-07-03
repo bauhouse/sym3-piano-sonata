@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section guid="4c2f5e4f6ea78">
+  <name handle="about">About</name>
+  <hidden-from-publish-menu>no</hidden-from-publish-menu>
+  <navigation-group>About</navigation-group>
+  <publish-order-handle></publish-order-handle>
+  <publish-order-direction></publish-order-direction>
+  <fields>
+    <field guid="4c2f5e4f6ead0">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <type>upload</type>
+      <element-name>my-photo</element-name>
+      <name>My Photo</name>
+      <publish-label></publish-label>
+      <destination>/workspace/uploads</destination>
+      <validator></validator>
+      <section>about</section>
+    </field>
+    <field guid="4c2f5e4f6eb6b">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>about-me-snippet</element-name>
+      <name>About me snippet</name>
+      <publish-label></publish-label>
+      <text-size>medium</text-size>
+      <text-formatter>markdown_extra_with_smartypants</text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>about</section>
+    </field>
+    <field guid="4c2f5e4f6ec2d">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>about-me</element-name>
+      <name>About me</name>
+      <publish-label></publish-label>
+      <text-size>medium</text-size>
+      <text-formatter>markdown_extra_with_smartypants</text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>about</section>
+    </field>
+  </fields>
+  <layout>
+    <column>
+      <size>large</size>
+      <fieldset>
+        <name></name>
+        <field>my-photo</field>
+        <field>about-me-snippet</field>
+        <field>about-me</field>
+      </fieldset>
+    </column>
+    <column>
+      <size>small</size>
+      <fieldset>
+        <name></name>
+      </fieldset>
+    </column>
+  </layout>
+</section>

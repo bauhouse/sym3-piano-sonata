@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section guid="4c2f5ec11a989">
+  <name handle="elsewhere">Elsewhere</name>
+  <hidden-from-publish-menu>no</hidden-from-publish-menu>
+  <navigation-group>About</navigation-group>
+  <publish-order-handle></publish-order-handle>
+  <publish-order-direction></publish-order-direction>
+  <fields>
+    <field guid="4c2f5ec11a9e3">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>title</element-name>
+      <name>Title</name>
+      <publish-label></publish-label>
+      <text-size>medium</text-size>
+      <text-formatter></text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>elsewhere</section>
+    </field>
+    <field guid="4c2f5ec11aaac">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>link</element-name>
+      <name>Link</name>
+      <publish-label></publish-label>
+      <text-size>single</text-size>
+      <text-formatter></text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>elsewhere</section>
+    </field>
+  </fields>
+  <layout>
+    <column>
+      <size>large</size>
+      <fieldset>
+        <name></name>
+        <field>title</field>
+        <field>link</field>
+      </fieldset>
+    </column>
+    <column>
+      <size>small</size>
+      <fieldset>
+        <name></name>
+      </fieldset>
+    </column>
+  </layout>
+</section>
