@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section guid="4c2f3d3e161a6">
+  <name handle="articles">Articles</name>
+  <hidden-from-publish-menu>no</hidden-from-publish-menu>
+  <navigation-group>Content</navigation-group>
+  <publish-order-handle></publish-order-handle>
+  <publish-order-direction></publish-order-direction>
+  <fields>
+    <field guid="4c2f3d3e16226">
+      <required>yes</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>title</element-name>
+      <name>Title</name>
+      <publish-label></publish-label>
+      <text-size>single</text-size>
+      <text-formatter>markdown_extra_with_smartypants</text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>articles</section>
+    </field>
+    <field guid="4c2f3d3e16308">
+      <required>no</required>
+      <show-column>no</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>body</element-name>
+      <name>Body</name>
+      <publish-label></publish-label>
+      <text-size>large</text-size>
+      <text-formatter>markdown_extra_with_smartypants</text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>articles</section>
+    </field>
+    <field guid="4c2f3d3e163c6">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <type>checkbox</type>
+      <element-name>publish</element-name>
+      <name>Publish</name>
+      <publish-label>Publish this article</publish-label>
+      <section>articles</section>
+    </field>
+    <field guid="4c2f3d3e16439">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <type>date</type>
+      <element-name>date</element-name>
+      <name>Date</name>
+      <publish-label></publish-label>
+      <pre-populate>yes</pre-populate>
+      <section>articles</section>
+    </field>
+    <field guid="4c2f3d3e164b6">
+      <required>no</required>
+      <show-column>no</show-column>
+      <type>checkbox</type>
+      <element-name>manage-images</element-name>
+      <name>Manage Images</name>
+      <publish-label>Let Symphony format my images</publish-label>
+      <section>articles</section>
+    </field>
+    <field guid="4c2f3d3e16531">
+      <required>no</required>
+      <show-column>no</show-column>
+      <limit>20</limit>
+      <type>link</type>
+      <element-name>article-images</element-name>
+      <name>Article Images</name>
+      <publish-label></publish-label>
+      <section>articles</section>
+      <related-fields/>
+    </field>
+    <field guid="4c2f3d3e165b1">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <limit>20</limit>
+      <type>link</type>
+      <element-name>categories</element-name>
+      <name>Categories</name>
+      <publish-label></publish-label>
+      <section>articles</section>
+      <related-fields/>
+    </field>
+    <field guid="4c2f3d3e16638">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <suggestion-source-threshold>2</suggestion-source-threshold>
+      <tag-delimiter>,</tag-delimiter>
+      <type>taglist</type>
+      <element-name>tags</element-name>
+      <name>Tags</name>
+      <publish-label></publish-label>
+      <delimiter>,</delimiter>
+      <validator></validator>
+      <section>articles</section>
+      <suggestion-list-source include-existing="yes"/>
+    </field>
+  </fields>
+  <layout>
+    <column>
+      <size>large</size>
+      <fieldset>
+        <name></name>
+        <field>title</field>
+        <field>body</field>
+        <field>article-images</field>
+      </fieldset>
+    </column>
+    <column>
+      <size>small</size>
+      <fieldset>
+        <name></name>
+        <field>date</field>
+        <field>categories</field>
+        <field>tags</field>
+        <field>publish</field>
+        <field>manage-images</field>
+      </fieldset>
+    </column>
+  </layout>
+</section>
