@@ -74,6 +74,7 @@
       <element-name>article-images</element-name>
       <name>Article Images</name>
       <publish-label></publish-label>
+      <allow-multiple-selection>yes</allow-multiple-selection>
       <section>articles</section>
       <related-fields>
         <item section="images" field="title"/>
@@ -87,6 +88,7 @@
       <element-name>categories</element-name>
       <name>Categories</name>
       <publish-label></publish-label>
+      <allow-multiple-selection>yes</allow-multiple-selection>
       <section>articles</section>
       <related-fields>
         <item section="categories" field="title"/>
