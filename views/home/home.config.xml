@@ -2,7 +2,20 @@
 <view guid="4c2f40c3b5a81">
   <title>Home</title>
   <content-type>text/html;charset=utf-8</content-type>
+  <url-parameters>
+    <item>category</item>
+  </url-parameters>
+  <data-sources>
+    <item>about-me</item>
+    <item>categories</item>
+    <item>homepage-articles</item>
+    <item>navigation</item>
+    <item>tags</item>
+    <item>twitter</item>
+    <item>website-owner</item>
+  </data-sources>
   <types>
     <item>index</item>
+    <item>hidden</item>
   </types>
 </view>
