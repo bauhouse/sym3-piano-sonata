@@ -30,7 +30,7 @@
       <element-name>description</element-name>
       <name>Description</name>
       <publish-label></publish-label>
-      <text-size>medium</text-size>
+      <text-size>small</text-size>
       <text-formatter>markdown_extra_with_smartypants</text-formatter>
       <text-validator></text-validator>
       <text-length>none</text-length>
@@ -46,6 +46,12 @@
         <name></name>
         <field>title</field>
         <field>description</field>
+      </fieldset>
+    </column>
+    <column>
+      <size>small</size>
+      <fieldset>
+        <name></name>
       </fieldset>
     </column>
   </layout>
