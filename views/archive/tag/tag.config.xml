@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c311679ea7f4">
+  <title>Tag</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <url-parameters>
+    <item>tag</item>
+  </url-parameters>
+  <data-sources>
+    <item>about-me</item>
+    <item>archive-listing</item>
+    <item>categories</item>
+    <item>navigation</item>
+    <item>tags</item>
+    <item>twitter</item>
+    <item>website-owner</item>
+  </data-sources>
+</view>

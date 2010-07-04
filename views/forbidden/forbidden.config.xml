@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c31179c76851">
+  <title>Forbidden</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <data-sources>
+    <item>navigation</item>
+    <item>website-owner</item>
+  </data-sources>
+  <types>
+    <item>403</item>
+    <item>hidden</item>
+  </types>
+</view>

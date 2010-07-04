@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c3116c58ec98">
+  <title>RSS</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <data-sources>
+    <item>rss-articles</item>
+  </data-sources>
+  <types>
+    <item>hidden</item>
+    <item>XML</item>
+  </types>
+</view>

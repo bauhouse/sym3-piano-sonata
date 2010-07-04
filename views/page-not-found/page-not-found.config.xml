@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c311723a8922">
+  <title>Page Not Found</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <data-sources>
+    <item>navigation</item>
+    <item>website-owner</item>
+  </data-sources>
+  <types>
+    <item>404</item>
+    <item>hidden</item>
+  </types>
+</view>

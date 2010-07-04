@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c3115b2d0698">
+  <title>Articles</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <url-parameters>
+    <item>entry</item>
+    <item>cat</item>
+  </url-parameters>
+  <data-sources>
+    <item>about-me</item>
+    <item>article</item>
+    <item>categories</item>
+    <item>comments</item>
+    <item>navigation</item>
+    <item>twitter</item>
+    <item>website-owner</item>
+  </data-sources>
+  <types>
+    <item>hidden</item>
+  </types>
+</view>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c3115ecd3cca">
+  <title>Archive</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <url-parameters>
+    <item>year</item>
+  </url-parameters>
+  <data-sources>
+    <item>archive</item>
+    <item>categories</item>
+    <item>navigation</item>
+    <item>tags</item>
+    <item>twitter</item>
+    <item>website-owner</item>
+  </data-sources>
+</view>

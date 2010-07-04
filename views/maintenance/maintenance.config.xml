@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c3116ee9c5ac">
+  <title>Maintenance</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <types>
+    <item>hidden</item>
+    <item>maintenance</item>
+  </types>
+</view>

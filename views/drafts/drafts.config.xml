@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c311773214ba">
+  <title>Drafts</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <url-parameters>
+    <item>entry</item>
+    <item>cat</item>
+  </url-parameters>
+  <data-sources>
+    <item>about-me</item>
+    <item>categories</item>
+    <item>drafts</item>
+    <item>navigation</item>
+    <item>tags</item>
+    <item>website-owner</item>
+  </data-sources>
+  <types>
+    <item>admin</item>
+    <item>hidden</item>
+  </types>
+</view>
