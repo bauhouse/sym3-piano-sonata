@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-	<xsl:import href="../utilities/page-title.xsl"/>
-	<xsl:import href="../utilities/navigation.xsl"/>
-	<xsl:import href="../utilities/date-time.xsl"/>
-	<xsl:import href="../utilities/get-article.xsl"/>
-	<xsl:import href="../utilities/sidebar.xsl"/>
+	<xsl:import href="page-title.xsl"/>
+	<xsl:import href="navigation.xsl"/>
+	<xsl:import href="date-time.xsl"/>
+	<xsl:import href="get-article.xsl"/>
+	<xsl:import href="sidebar.xsl"/>
 
 	<xsl:output method="xml"
 		doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
