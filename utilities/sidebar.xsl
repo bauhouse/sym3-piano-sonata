@@ -6,7 +6,7 @@
 	<xsl:template name="about">
 		<div id="about" class="section">
 			<h3>About</h3>
-			<img src="{$root}/image/2/60/68/2/{about-me/entry/my-photo/@path}/{about-me/entry/my-photo/filename}" alt="Avatar" class="avatar" />
+			<img src="{$root}/{about-me/entry/my-photo/file/@path}/{about-me/entry/my-photo/file}" alt="Avatar" class="avatar" />
 			<xsl:copy-of select="about-me/entry/about-me-snippet/*" />
 			<p> <a href="{$root}/about/">Read more</a>.</p>
 		</div>
@@ -15,7 +15,7 @@
 	<xsl:template name="twitter">
 		<div id="twitter" class="section">
 			<h3>Recently on Twitter</h3>
-			<blockquote><p><xsl:value-of select="twitter/statuses/status/text"/></p></blockquote>
+			<blockquote><p><xsl:value-of select="twitter/status/text"/></p></blockquote>
 			<p><a href="http://twitter.com/{twitter//screen_name}">Follow me</a>.</p>
 		</div>
 	</xsl:template>
