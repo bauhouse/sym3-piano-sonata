@@ -35,7 +35,7 @@
 					</div>
 					<div id="header" class="col last span-12">
 						<h1><a href="{$root}"><xsl:value-of select="$website-name"/></a></h1>
-						<h2><span class="by">by </span><xsl:value-of select="data/website-owner/author/name"/></h2>
+						<h2><span class="by">by </span><xsl:value-of select="data/website-owner/user/name"/></h2>
 					</div>
 					<xsl:apply-templates select="data"/>
 					<div id="footer">
