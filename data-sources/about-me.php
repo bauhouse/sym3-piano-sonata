@@ -15,7 +15,7 @@
 					'email'			=> 'bauhouse@gmail.com'
 				),
 				'version'		=> '1.0',
-				'release-date'	=> '2010-07-04T16:07:17+00:00'
+				'release-date'	=> '2010-07-04T22:57:12+00:00'
 			);
 			
 			$this->_parameters = (object)array(
@@ -33,7 +33,9 @@
 				'sort-field' => 'system:id',
 				'sort-order' => 'desc',
 				'included-elements' => array (
-					  0 => 'about-me: formatted',
+					  0 => 'my-photo',
+					  1 => 'about-me-snippet: formatted',
+					  2 => 'about-me: formatted',
 					),
 				'parameter-output' => array (
 					),
