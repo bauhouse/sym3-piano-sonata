@@ -25,7 +25,7 @@
       <element-name>about-me-snippet</element-name>
       <name>About me snippet</name>
       <publish-label></publish-label>
-      <text-size>medium</text-size>
+      <text-size>small</text-size>
       <text-formatter>markdown_extra_with_smartypants</text-formatter>
       <text-validator></text-validator>
       <text-length>none</text-length>
@@ -55,15 +55,15 @@
       <size>large</size>
       <fieldset>
         <name></name>
-        <field>my-photo</field>
-        <field>about-me-snippet</field>
         <field>about-me</field>
+        <field>my-photo</field>
       </fieldset>
     </column>
     <column>
       <size>small</size>
       <fieldset>
         <name></name>
+        <field>about-me-snippet</field>
       </fieldset>
     </column>
   </layout>
