@@ -14,7 +14,7 @@
       <element-name>title</element-name>
       <name>Title</name>
       <publish-label></publish-label>
-      <text-size>medium</text-size>
+      <text-size>single</text-size>
       <text-formatter></text-formatter>
       <text-validator></text-validator>
       <text-length>none</text-length>

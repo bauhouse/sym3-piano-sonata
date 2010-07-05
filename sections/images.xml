@@ -55,9 +55,9 @@
       <size>large</size>
       <fieldset>
         <name></name>
-        <field>image</field>
-        <field>description</field>
         <field>title</field>
+        <field>description</field>
+        <field>image</field>
       </fieldset>
     </column>
     <column>
