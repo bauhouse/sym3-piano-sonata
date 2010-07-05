@@ -4,6 +4,7 @@
   <content-type>text/html;charset=utf-8</content-type>
   <data-sources>
     <item>about-me</item>
+    <item>elsewhere</item>
     <item>navigation</item>
     <item>tags</item>
     <item>twitter</item>
