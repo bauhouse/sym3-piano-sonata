@@ -3,9 +3,11 @@
 
 	<xsl:template name="get-images">
 		<xsl:param name="image-entry"/>
+		<xsl:param name="image-id" select="$image-entry/@id" />
+		<xsl:param name="image" select="/data/images/entry[@id = $image-id]" />
 		<xsl:choose>
-			<xsl:when test="($image-entry/image/meta/@width) &gt; ($image-entry/image/meta/@height)">
-				<xsl:apply-templates select="$image-entry/image">
+			<xsl:when test="($image/image/meta/dimension/@width) &gt; ($image/image/meta/dimension/@height)">
+				<xsl:apply-templates select="$image/image">
 					<xsl:with-param name="image-class" select="'full-width'"/>
 					<xsl:with-param name="caption-class" select="'full-width-caption'"/>
 					<xsl:with-param name="width" select="'796'"/>
@@ -14,7 +16,7 @@
 			</xsl:when>
 			<xsl:otherwise>
 				<div class="half-size">
-					<xsl:apply-templates select="$image-entry/image">
+					<xsl:apply-templates select="$image/image">
 						<xsl:with-param name="image-class" select="'centered'"/>
 						<xsl:with-param name="caption-class" select="'caption'"/>
 						<xsl:with-param name="width" select="'403'"/>
@@ -30,7 +32,8 @@
 		<xsl:param name="caption-class" />
 		<xsl:param name="width" />
 		<xsl:param name="height" />
-		<img src="{$root}/image/2/{$width}/{$height}/2{@path}/{filename}" alt="{description}" class="{$image-class}"/>
+		<!-- img src="{$root}/image/2/{$width}/{$height}/2{file/@path}/{file}" alt="{description}" class="{$image-class}"/ -->
+		<img src="{$root}/{file/@path}/{file}" alt="{description}" class="{$image-class}" />
 		<p class="{$caption-class}">
 			<xsl:value-of select="../description"/>
 		</p>
