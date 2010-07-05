@@ -14,7 +14,13 @@
 		encoding="UTF-8"
 		indent="yes" />
 
-	<xsl:variable name="is-logged-in" select="/data/events/login-info/@logged-in"/>
+	<xsl:variable name="website-owner" select="/data/website-owner/user" />
+	<xsl:variable name="is-logged-in">
+		<xsl:choose>
+			<xsl:when test="$cookie-username = $website-owner/username">true</xsl:when>
+			<xsl:otherwise>false</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
 
 	<xsl:template match="/">
 		<html>
