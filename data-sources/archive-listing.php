@@ -15,7 +15,7 @@
 					'email'			=> 'bauhouse@gmail.com'
 				),
 				'version'		=> '1.0',
-				'release-date'	=> '2010-07-04T16:27:55+00:00'
+				'release-date'	=> '2010-07-05T14:05:56+00:00'
 			);
 			
 			$this->_parameters = (object)array(
@@ -29,7 +29,7 @@
 					  0 => 
 					  array (
 					    'type' => 'is',
-					    'value' => '{$ds-categories}',
+					    'value' => '{$category}',
 					    'element-name' => 'categories',
 					  ),
 					  1 => 
@@ -58,10 +58,8 @@
 					  4 => 'tags',
 					),
 				'parameter-output' => array (
-					  0 => 'categories',
 					),
 				'dependencies' => array (
-					  0 => 'categories',
 					),
 			);
 		}

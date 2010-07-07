@@ -15,7 +15,7 @@
 					'email'			=> 'bauhouse@gmail.com'
 				),
 				'version'		=> '1.0',
-				'release-date'	=> '2010-07-04T16:11:15+00:00'
+				'release-date'	=> '2010-07-05T03:17:03+00:00'
 			);
 			
 			$this->_parameters = (object)array(
@@ -36,11 +36,13 @@
 				'redirect-404-on-empty' => false,
 				'append-pagination' => false,
 				'append-sorting' => false,
-				'sort-field' => 'system:id',
+				'sort-field' => 'date',
 				'sort-order' => 'desc',
 				'included-elements' => array (
 					  0 => 'title: unformatted',
 					  1 => 'date',
+					  2 => 'categories',
+					  3 => 'tags',
 					),
 				'parameter-output' => array (
 					),

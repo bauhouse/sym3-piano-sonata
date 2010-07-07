@@ -25,7 +25,8 @@
 			<h3>Posts by categories</h3>
 			<p>Dig in the archives.</p>
 			<ul>
-				<xsl:for-each select="categories/entry[@articles &gt; '0']">
+				<!-- xsl:for-each select="categories/entry[@articles &gt; '0']" -->
+				<xsl:for-each select="categories/entry">
 					<li><a href="{$root}/archive/category/{title/@handle}"><xsl:value-of select="title"/></a></li>
 				</xsl:for-each>
 			</ul>
@@ -36,7 +37,8 @@
 		<div class="section">
 			<h3>Posts by categories</h3>
 			<ul>
-				<xsl:for-each select="all-categories/entry[@articles &gt; '0']">
+				<!-- xsl:for-each select="all-categories/entry[@articles &gt; '0']" -->
+				<xsl:for-each select="all-categories/entry">
 					<li><a href="{$root}/archive/category/{title/@handle}"><xsl:value-of select="title"/></a></li>
 				</xsl:for-each>
 			</ul>
