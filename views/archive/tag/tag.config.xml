@@ -8,6 +8,7 @@
   <data-sources>
     <item>about-me</item>
     <item>archive-listing</item>
+    <item>archive</item>
     <item>categories</item>
     <item>navigation</item>
     <item>tags</item>

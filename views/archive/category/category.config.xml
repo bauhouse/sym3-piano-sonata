@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <view guid="4c31164b853c5">
-  <title>Categories</title>
+  <title>Category</title>
   <content-type>text/html;charset=utf-8</content-type>
   <url-parameters>
     <item>category</item>
@@ -9,7 +9,7 @@
     <item>about-me</item>
     <item>all-categories</item>
     <item>archive-listing</item>
-    <item>categories</item>
+    <item>archive</item>
     <item>navigation</item>
     <item>tags</item>
     <item>twitter</item>

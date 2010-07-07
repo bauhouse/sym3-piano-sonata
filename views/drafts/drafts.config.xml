@@ -8,8 +8,10 @@
   </url-parameters>
   <data-sources>
     <item>about-me</item>
+    <item>all-categories</item>
     <item>categories</item>
     <item>drafts</item>
+    <item>elsewhere</item>
     <item>navigation</item>
     <item>tags</item>
     <item>website-owner</item>
